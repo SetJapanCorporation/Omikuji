@@ -14,6 +14,7 @@
 		A72EFA641F0F67DB0049A92F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72EFA621F0F67DB0049A92F /* LaunchScreen.storyboard */; };
 		A72EFA6F1F0F67DC0049A92F /* OmikujiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EFA6E1F0F67DC0049A92F /* OmikujiTests.swift */; };
 		A72EFA7A1F0F67DC0049A92F /* OmikujiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EFA791F0F67DC0049A92F /* OmikujiUITests.swift */; };
+		CE54E5A81F0F79450096A507 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE54E5A71F0F79450096A507 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A72EFA751F0F67DC0049A92F /* OmikujiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikujiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72EFA791F0F67DC0049A92F /* OmikujiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiUITests.swift; sourceTree = "<group>"; };
 		A72EFA7B1F0F67DC0049A92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE54E5A71F0F79450096A507 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A72EFA4D1F0F67DB0049A92F = {
 			isa = PBXGroup;
 			children = (
+				CE54E5A71F0F79450096A507 /* README.md */,
 				A72EFA581F0F67DB0049A92F /* Omikuji */,
 				A72EFA6D1F0F67DC0049A92F /* OmikujiTests */,
 				A72EFA781F0F67DC0049A92F /* OmikujiUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE54E5A81F0F79450096A507 /* README.md in Resources */,
 				A72EFA641F0F67DB0049A92F /* LaunchScreen.storyboard in Resources */,
 				A72EFA611F0F67DB0049A92F /* Assets.xcassets in Resources */,
 				A72EFA5F1F0F67DB0049A92F /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				A72EFA801F0F67DC0049A92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A72EFA811F0F67DC0049A92F /* Build configuration list for PBXNativeTarget "OmikujiTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				A72EFA831F0F67DC0049A92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A72EFA841F0F67DC0049A92F /* Build configuration list for PBXNativeTarget "OmikujiUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				A72EFA861F0F67DC0049A92F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
