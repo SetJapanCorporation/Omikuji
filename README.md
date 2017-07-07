@@ -1,5 +1,11 @@
 ## おみくじアプリを作ってみよう
 
-## License
-[MIT]: http://www.opensource.org/licenses/mit-license.php
-LocalFileManager is available under the [MIT license][MIT]. 
+Youtubeで公開されている[おみくじアプリを作ってみよう]()のプロジェクトファイル一式です。
+
+
+[iOSアプリ開発講座 Youtube再生リスト](https://www.youtube.com/playlist?list=PLCuuioKSHE156wvWa9KPEHTFwzCNcNVt6)
+
+
+## ライセンス
+
+Omikuji is available under the  [MIT License](LICENSE).
