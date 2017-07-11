@@ -27,22 +27,26 @@ class ViewController: UIViewController {
 
     /// 占うボタンがタップされたときの処理
     @IBAction func didTapedFortuneButton(_ sender: Any) {
-        // 0~3のランダムな数字を生成します
+        /* ここから記述 */
+        
+        // 4未満(0~3)のランダムな数字を生成します
         let randNum = arc4random_uniform(4)
         
-        // randNumの数値によって占い結果をラベルに表示します
+        // randNumの数値によって異なる処理を行います
         switch randNum {
-        case 0:
-            resultLabel.text = "凶"
-        case 1:
-            resultLabel.text = "吉"
-        case 2:
-            resultLabel.text = "中吉"
-        case 3:
-            resultLabel.text = "大吉"
-        default:
-            break
+        case 0: // randNumが0の場合
+            resultLabel.text = "凶" // resultLabelのテキストを凶に変更
+        case 1: // randNumが1の場合
+            resultLabel.text = "吉" // resultLabelのテキストを吉に変更
+        case 2: // randNumが2の場合
+            resultLabel.text = "中吉" // resultLabelのテキストを中吉に変更
+        case 3: // randNumが3の場合
+            resultLabel.text = "大吉" // resultLabelのテキストを大吉に変更
+        default: // それ以外の場合
+            break // 何もしません
         }
+        
+        /* ここまで記述 */
     }
 
 }
